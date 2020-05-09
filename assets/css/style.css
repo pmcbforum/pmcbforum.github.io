@@ -500,6 +500,19 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  text-align: justify;
+}
+
+.section-title h3, h4 {
+  text-align: left;
+  font-weight: bold;
+  color: #ff00ff;
+}
+
+.section-title h4 {
+  color: blue;
+  font-style: 
+  text-decoration: underline;; 
 }
 
 /*--------------------------------------------------------------
@@ -572,45 +585,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# updates
 --------------------------------------------------------------*/
-.services .icon-box {
+.updates .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background: #fff;
 }
 
-.services .icon-box i {
+.updates .icon-box i {
   float: left;
   color: #00c1c1;
   font-size: 40px;
 }
 
-.services .icon-box h4 {
-  margin-left: 70px;
+.updates .icon-box h4 {
+  margin-left: 10px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .icon-box h4 a {
+.updates .icon-box h4 a {
   color: #334242;
   transition: 0.3s;
 }
 
-.services .icon-box:hover h4 a {
+.updates .icon-box:hover h4 a {
   color: #00c1c1;
 }
 
-.services .icon-box p {
-  margin-left: 70px;
+.updates .icon-box p {
+  margin-left: 10px;
   line-height: 24px;
   font-size: 14px;
 }
 
 /*--------------------------------------------------------------
-# Cta
+# Call to Action (CTA)
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.1), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
