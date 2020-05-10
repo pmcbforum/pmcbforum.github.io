@@ -461,6 +461,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -541,6 +543,8 @@ section {
   margin-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Cards
 --------------------------------------------------------------*/
@@ -588,7 +592,7 @@ section {
 --------------------------------------------------------------*/
 .updates .icon-box {
   margin-bottom: 20px;
-  padding: 30px;
+  padding: 20px;
   border-radius: 6px;
   background: #fff;
 }
@@ -599,20 +603,14 @@ section {
   font-size: 40px;
 }
 
-.updates .icon-box h4 {
-  margin-left: 10px;
+.updates .icon-box h4, a {
+  margin-left: 0px;
+  padding: 5px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.updates .icon-box h4 a {
-  color: #334242;
-  transition: 0.3s;
-}
-
-.updates .icon-box:hover h4 a {
-  color: #00c1c1;
+  font-size: 20px;
+  color: black;
+  background-color: #00c1c1;
 }
 
 .updates .icon-box p {
