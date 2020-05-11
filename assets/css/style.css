@@ -502,6 +502,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  margin-top: 10;
   text-align: justify;
 }
 
