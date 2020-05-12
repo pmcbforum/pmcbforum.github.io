@@ -502,20 +502,31 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  margin-top: 10;
   text-align: justify;
+  padding-left: 5px;
 }
 
 .section-title h3, h4 {
   text-align: left;
   font-weight: bold;
   color: #ff00ff;
+  padding-left: 5px;
 }
 
 .section-title h4 {
   color: blue;
   text-decoration: underline;
 }
+
+.container li {
+  text-align: left;
+}
+
+.container h3, h4, p {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
 
 /*.hlink {
   font-size: 10px;
