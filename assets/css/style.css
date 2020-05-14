@@ -577,6 +577,38 @@ section {
   text-decoration: underline;
 }
 
+table.contributions {
+  width: 600px;
+  background: white;
+}
+
+th {
+  text-align: center;
+  border: 2px solid;
+  border-color: white;
+  background-color: #00c1c1;
+}
+
+
+.number, .name, .amount {
+  text-align: center;
+  border-bottom: 2px solid;
+  border-bottom-color: #00c1c1;
+}
+
+.number, .name {
+  border-right: 2px solid;
+  border-right-color: #00c1c1;
+}
+
+.name, .amount {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.amount {
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Cards
