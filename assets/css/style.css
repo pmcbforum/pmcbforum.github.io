@@ -582,6 +582,7 @@ section {
   border: 2px solid;
   border-color: white;
   background-color: #00c1c1;
+  font-size: 16px;
 }
 
 
@@ -594,6 +595,7 @@ section {
 .number, .name {
   border-right: 2px solid;
   border-right-color: #00c1c1;
+  font-size: 16px;
 }
 
 .name, .amount {
@@ -603,6 +605,7 @@ section {
 
 .amount {
   text-align: center;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
