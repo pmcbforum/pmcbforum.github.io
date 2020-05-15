@@ -577,12 +577,7 @@ section {
   text-decoration: underline;
 }
 
-table.contributions {
-  width: 480px;
-  background: white;
-}
-
-th {
+.classHeader {
   text-align: center;
   border: 2px solid;
   border-color: white;

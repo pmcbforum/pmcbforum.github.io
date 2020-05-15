@@ -25,6 +25,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <!-- =======================================================
   * Template Name: Alstar - v2.0.0
@@ -226,16 +229,22 @@
         <div class="section-title">
           <h2>Contributions</h2>
           <p>Following core members have contributed for the fund needed for the forum activities.</p>
-          <table class="contributions">
-            <tr>
-              <th width="10%"></th>
-              <th width="60%">Name</th>
-              <th>Amount</th>
-            </tr>
-            <tr><td class="number">1.</td><td class="name">Praful Shah</td><td class="amount">Rs. 1000/-</td></tr>
-            <tr><td class="number">2.</td><td class="name">Davinder Singh</td><td class="amount">Rs. 1000/-</td></tr>
-            <tr><td class="number">3.</td><td class="name">Davinder Singh</td><td class="amount">Rs. 1000/-</td></tr>
-          </table>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="classHeader">#</th>
+                  <th class="classHeader">Name</th>
+                  <th class="classHeader">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td class="number">1.</td><td class="name">Praful Shah</td><td class="amount">Rs. 1000/-</td></tr>
+                <tr><td class="number">2.</td><td class="name">Davinder Singh</td><td class="amount">Rs. 1000/-</td></tr>
+                <tr><td class="number">3.</td><td class="name">Davinder Singh</td><td class="amount">Rs. 1000/-</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
@@ -336,88 +345,73 @@
 
     <!-- ======= correspondence Section ======= -->
     <section id="correspondence" class="about">
-      <div class="section-title">
-        <h2>Correspondence</h2>
-        <p>We are consistently in communication with various authorities. Briefly mentioned as follows:</p>
-      </div>
-      
-      <div class="row">
-        <div class="col-md-6 mt-4 mt-md-0">
-        <div class="container">      
-          <h3 style="color: #ff00ff; font-weight: bold">with RBI</h3>
-            <table>
-              <tr valign="top">
-                <td width="50%">
-                <ul>
-                  <li><a class="hlink" href="assets/pdf/withdrawal RBI.pdf" target="_new">Letter for withdrawal Dec 2019</a></li>
-                  <li><a class="hlink" href="assets/pdf/Revival PMCB RBI.pdf" target="_new">Request Letter for Revival</a></li>
-                  <li><a class="hlink" href="assets/pdf/Revival PMCB RBI PE.pdf" target="_new">Appeal for Revival</a></li>
-                </ul>
-                </td>
-                <td>
-                <ul>
-                  <li><a class="hlink" href="assets/pdf/withdrawal RBI Extension March 20.pdf" target="_new">Letter for withdrawal Mar 2020</a></li>
-                  <li><a class="hlink" href="assets/pdf/withdrawal RBI Extension April follow up.pdf" target="_new">Follow-up/Reminder 1 of Letter for withdrawal</a></li>
-                  <li><a class="hlink" href="assets/pdf/withdrawal RBI Extension April follow up Third.pdf" target="_new">Follow-up/Reminder 2 of Letter for withdrawal</a></li>
-                </ul>
-                </td>
-              </tr>
-            </table>
-            <!-- <a class="hlinkSml" href="" style="color: red; text-decoration: none; text-align: right;">.... more</a> -->
-        </div>
-        </div>
+        <div class="section-title">
+          <h2>Correspondence</h2>
         
-        <div class="col-md-6 mt-4 mt-md-0">
-        <div class="container">      
-          <h3 style="color: #ff00ff; font-weight: bold">with Administrator, PMC Bank</h3>
-            <table>
-              <tr valign="top">
-                <td width="50%">
-                <ul>
-                  <li><a class="hlink" href="assets/pdf/CIRP HDIL.pdf" target="_new">CIRP HDIL</a></li>
-                  <li><a class="hlink" href="assets/pdf/Revival.pdf" target="_new">Letter for Revival</a></li>
-                  <li><a class="hlink" href="assets/pdf/Revival Docs request.pdf" target="_new">Request for Documents</a></li>
-                </ul>
-                </td>
-                <td width="50%">
-                <ul>
-                  <li><a class="hlink" href="assets/pdf/Revival Docs request 2020 April.pdf" target="_new">Request for Documents Reminder</a></li>
-                  <li><a class="hlink" href="assets/pdf/withdrawal.pdf" target="_new">Letter for Withdrawals</a></li>
-                  <!-- <li><a class="hlink" href="assets/pdf/.pdf" target="_new">letter3</a></li> -->
-                </ul>
-                </td>
-              </tr>
-            </table>
-        </div>
-        </div>
-      </div>
-      
-      <div class="row">
-        <!-- <p>We are consistently in communication with various authorities. Briefly mentioned as follows:</p> -->
-        <div class="col-md-6 mt-4 mt-md-0">
-        <div class="container">      
-          <h3 style="color: #ff00ff; font-weight: bold">with PMO</h3>
+        <div class="container">
+          <p>We are consistently in communication with various authorities. Briefly mentioned as follows:</p>
+          <div class="row">
+            <div class="col-md-6 mt-4 mt-md-0">
+              <h3 style="color: #ff00ff; font-weight: bold">with RBI</h3>
+              <table>
+                <tr valign="top">
+                  <td width="50%">
+                  <ul>
+                    <li><a class="hlink" href="assets/pdf/withdrawal RBI.pdf" target="_new">Letter for withdrawal Dec 2019</a></li>
+                    <li><a class="hlink" href="assets/pdf/Revival PMCB RBI.pdf" target="_new">Request Letter for Revival</a></li>
+                    <li><a class="hlink" href="assets/pdf/Revival PMCB RBI PE.pdf" target="_new">Appeal for Revival</a></li>
+                  </ul>
+                  </td>
+                  <td>
+                  <ul>
+                    <li><a class="hlink" href="assets/pdf/withdrawal RBI Extension March 20.pdf" target="_new">Letter for withdrawal Mar 2020</a></li>
+                    <li><a class="hlink" href="assets/pdf/withdrawal RBI Extension April follow up.pdf" target="_new">Follow-up/Reminder 1 of Letter for withdrawal</a></li>
+                    <li><a class="hlink" href="assets/pdf/withdrawal RBI Extension April follow up Third.pdf" target="_new">Follow-up/Reminder 2 of Letter for withdrawal</a></li>
+                  </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+              <h3 style="color: #ff00ff; font-weight: bold">with Administrator, PMC Bank</h3>
+              <table>
+                <tr valign="top">
+                  <td width="50%">
+                  <ul>
+                    <li><a class="hlink" href="assets/pdf/CIRP HDIL.pdf" target="_new">CIRP HDIL</a></li>
+                    <li><a class="hlink" href="assets/pdf/Revival.pdf" target="_new">Letter for Revival</a></li>
+                    <li><a class="hlink" href="assets/pdf/Revival Docs request.pdf" target="_new">Request for Documents</a></li>
+                  </ul>
+                  </td>
+                  <td width="50%">
+                  <ul>
+                    <li><a class="hlink" href="assets/pdf/Revival Docs request 2020 April.pdf" target="_new">Request for Documents Reminder</a></li>
+                    <li><a class="hlink" href="assets/pdf/withdrawal.pdf" target="_new">Letter for Withdrawals</a></li>
+                    <!-- <li><a class="hlink" href="assets/pdf/.pdf" target="_new">letter3</a></li> -->
+                  </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mt-4 mt-md-0">
+              <h3 style="color: #ff00ff; font-weight: bold">with PMO</h3>
            
                 <ul>
                   <li><a class="hlink" href="assets/pdf/Revival PMCB PMO.pdf" target="_new">Appeal for Revival</a></li>
                   <li><a class="hlink" href="assets/pdf/PMO COVID Appeal April Delhi.pdf" target="_new">COVID Appeal</a></li>
                 </ul>
-           
-            <!-- <a class="hlinkSml" href="" style="color: red; text-decoration: none; text-align: right;">.... more</a> -->
-        </div>
-        </div>
-        
-        <div class="col-md-6 mt-4 mt-md-0">
-        <div class="container">      
-          <h3 style="color: #ff00ff; font-weight: bold">with President of India</h3>
-            <ul>
-              <li><a class="hlink" href="assets/pdf/Revival PMCB President.pdf" target="_new">Appeal for Revival</a></li>
-            </ul>
-        </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+              <h3 style="color: #ff00ff; font-weight: bold">with President of India</h3>
+              <ul>
+                <li><a class="hlink" href="assets/pdf/Revival PMCB President.pdf" target="_new">Appeal for Revival</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    
-
     </section>    
 
     <!-- ======= Team Section ======= -->
@@ -443,8 +437,8 @@
                 </div> -->
               </div>
               <div class="member-info">
-                <h4>Dipika Sahani</h4>
-                <span>Advocate, PMC Victim</span><span>Branch: Airoli</span>
+                <h4>Dipika Sahani</h4><span>B.Con., LL.M, D.I.M, D. Co-op.</span>
+                <span>Advocate, PMC Victim, Branch: Airoli, Mumbai</span>
               </div>
             </div>
           </div>
@@ -462,7 +456,7 @@
               </div>
               <div class="member-info">
                 <h4>Sikander Bhatia</h4>
-                <span>Ex-banker, PMC Victim</span><span>Branch: Versova</span>
+                <span>Ex-banker, PMC Victim</span><span>Branch: Versova, Mumbai</span>
               </div>
             </div>
           </div>
@@ -480,7 +474,7 @@
               </div>
               <div class="member-info">
                 <h4>Vijay Mungale</h4>
-                <span>CA, PMC Victim</span><span>Branch: Andheri (E)</span>
+                <span>CA, PMC Victim</span><span>Branch: Andheri (E), Mumbai</span>
               </div>
             </div>
           </div>
@@ -498,7 +492,7 @@
               </div>
               <div class="member-info">
                 <h4>Praful Shah</h4>
-                <span>Engineer, PMC Victim</span><span>Branch: Fort</span>
+                <span>Engineer, PMC Victim</span><span>Branch: Fort, Mumbai</span>
               </div>
             </div>
           </div>
@@ -516,7 +510,7 @@
               </div>
               <div class="member-info">
                 <h4>Amar Thakur, BA LL.B.</h4>
-                <span>Ex CMD, Ex Businessman</span><span>PMC Victim, Branch: Oshiwara </span>
+                <span>Ex CMD, Ex Businessman</span><span>PMC Victim, Branch: Oshiwara, Mumbai </span>
               </div>
             </div>
           </div>
@@ -534,7 +528,7 @@
               </div>
               <div class="member-info">
                 <h4>Davinder Singh</h4>
-                <span>Businessman, PMC Victim</span><span>Branch: Versova</span>
+                <span>Businessman, PMC Victim</span><span>Branch: Versova, Mumbai</span>
               </div>
             </div>
           </div>
@@ -552,7 +546,7 @@
               </div>
               <div class="member-info">
                 <h4>Manmohan Singh</h4>
-                <span>Cable Service Provider, PMC Victim</span><span>Branch: Versova</span>
+                <span>Cable Service Provider, PMC Victim</span><span>Branch: Koparkhairane, Mumbai</span>
               </div>
             </div>
           </div>
@@ -570,7 +564,7 @@
               </div>
               <div class="member-info">
                 <h4>Hariram Chaudhary. LL.B.</h4>
-                <span>RTI Activist, PMC Victim</span><span>Branch: Santacruz (W)</span>
+                <span>RTI Activist, PMC Victim</span><span>Branch: Santacruz (W), Mumbai</span>
               </div>
             </div>
           </div>
@@ -588,7 +582,7 @@
               </div>
               <div class="member-info">
                 <h4>Deepak Rupani</h4>
-                <span>CA & Advocate, GST & Legal Consultant, PMC Victim</span><span>Branch: Santacruz (W)</span>
+                <span>CA & Advocate, GST & Legal Consultant, PMC Victim</span><span>Branch: Santacruz (W), Mumbai</span>
               </div>
             </div>
           </div>
