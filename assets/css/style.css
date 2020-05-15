@@ -510,7 +510,7 @@ section {
   text-align: left;
   font-weight: bold;
   color: #ff00ff;
-  padding-left: 5px;
+  padding-left: 0;
 }
 
 .section-title h4 {
@@ -523,8 +523,8 @@ section {
 }
 
 .container h3, h4, p {
-  padding-left: 5px;
-  margin-left: 5px;
+  padding-left: 2px;
+  margin-left: 2px;
 }
 
 
@@ -652,7 +652,7 @@ section {
 --------------------------------------------------------------*/
 .updates .icon-box {
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 0px;
   border-radius: 6px;
   background: #fff;
 }
@@ -678,6 +678,7 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+
 
 /*--------------------------------------------------------------
 # Call to Action (CTA)
